@@ -3,12 +3,7 @@ import React, { useReducer } from "react";
 export const GlobalContext = React.createContext();
 
 const initialState = {
-  lists: [
-    { id: 455, text: "Kamran" },
-    { id: 4575, text: "Kamran4" },
-    { id: 4875, text: "Kamran5" },
-    { id: 4545, text: "Kamran55" }
-  ]
+  lists: []
 };
 
 const reducer = (state, action) => {
