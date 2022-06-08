@@ -20,7 +20,7 @@ const Input = () => {
     <div>
       <form onSubmit={submitHandler}>
         <textarea
-          id="text"
+          id="task"
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
