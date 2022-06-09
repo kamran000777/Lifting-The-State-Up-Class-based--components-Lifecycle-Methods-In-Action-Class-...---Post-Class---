@@ -15,6 +15,7 @@ const Input = () => {
       text: text
     };
     addTodo(obj);
+    setText("");
   };
   return (
     <div>
