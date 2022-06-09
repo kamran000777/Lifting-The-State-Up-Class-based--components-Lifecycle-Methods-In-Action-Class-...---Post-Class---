@@ -14,6 +14,7 @@ const Item = ({ list }) => {
   const clickHandler = () => {
     editTodo(list.id, input);
     setExpand(!expand);
+        setInput("");
   };
   return (
     <>
